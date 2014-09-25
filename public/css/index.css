@@ -1,0 +1,46 @@
+body{
+    background-image: url(../img/bg.png);
+}
+
+.cr-container{
+    width: 695px;
+    height: 180px;
+    position: relative;
+    margin: 0 auto;
+    border: 20px solid #fff;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.avatar{
+    width: 60px;
+    height: 60px;
+    background: url(../img/thumb2.png);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px white,0 0 4px 4px #eee;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top:10px;
+    left:200px;
+    -webkit-animation: fadein .5s;
+}
+
+.top-nav-title{
+    margin-left: 150px;
+}
+
+.top-bar-brand{
+    position: relative;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        -webkit-transform: scale(0);
+    }
+    50% {
+        -webkit-transform: scale(1.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
